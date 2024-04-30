@@ -30,6 +30,22 @@
       <button class="btn btn--new">🔄 New game</button>
       <button class="btn btn--roll">🎲 Roll dice</button>
       <button class="btn btn--hold">📥 Hold</button>
+      <button class="btn btn--rules">📖 Rules</button>
+
+      <div class="modal hidden">
+        <button class="close--modal">&times;</button>
+        <h1>Game Rules 📖</h1>
+        <p>
+          <ol class="game-rules">
+            <li>Roll the 🎲 to get the score</li>
+            <li>Each time you get the score, it will be accumulated on the current score</li>
+            <li>Becareful!! Every time you get a 1, your current score will be erased 💥</li>
+            <li>Press 📥 Hold if you want to safe your current score, and it will be accumulated on the scoreboard</li>
+            <li>The player who reaches 100 first is the winner!! 🎉</li>
+          </ol>
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
     </main>
     <script src="script.js"></script>
   </body>
